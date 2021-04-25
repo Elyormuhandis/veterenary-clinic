@@ -1,0 +1,32 @@
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .hero-section {
+        background-image: url(../images/catdog@2x.png), url(../images/budgie@2x.png);
+    }
+
+    .active-card {
+        background-image: url(../images/cat@2x.png);
+    }
+
+    .subscription {
+        background-image: url(../images/subscribe-bg@2x.png);
+    }
+
+    .news__card:first-child {
+        background-image: url(../images/new1@2x.png);
+    }
+
+    .news__card:nth-child(2) {
+        background-image: url(../images/new2@2x.png);
+    }
+
+    .news__card:last-child {
+        background-image: url(../images/new3@2x.png);
+    }
+
+    .feedback-content {
+        background-image: url(../images/feedback@2x.png);
+    }
+
+
+}
